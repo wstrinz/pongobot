@@ -8,6 +8,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.4.0)
+    edn (1.1.0)
     eventmachine (1.2.0.1)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
@@ -59,6 +60,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  edn
   slack-ruby-bot
 
 BUNDLED WITH
